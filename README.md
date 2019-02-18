@@ -16,7 +16,7 @@ You need to install this list of library:
 - midi2audio
 - midi
 
-Put music in normal_songs directory then execute train.py to train the AI with this command line:
+Put some .midi file in normal_songs directory then execute train.py to train the AI with this command line:
 > python3 train.py
 
 Keep last updates of each instruments were generated in updates directory and
@@ -27,7 +27,7 @@ Example:
 Then execute predict.py with this command line to launch prediction:
 > python3 predict.py
 
-Some results will be obtain in music directory.
+Some results will be obtained in music directory.
 
 Finally execute merge.py by the following command line:
 > python3 merge.py
