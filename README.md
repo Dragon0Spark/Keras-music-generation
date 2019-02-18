@@ -34,4 +34,4 @@ Finally execute merge.py by the following command line:
 
 It generates a .midi file called TotalSound.mid.
 
-Enjoy the sound.
+Enjoy the sound!!!
