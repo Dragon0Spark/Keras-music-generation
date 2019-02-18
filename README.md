@@ -4,32 +4,33 @@ This program is based on the tutorial: https://towardsdatascience.com/how-to-gen
 How to use:
 
 Dependencies:
+
 You need to install this list of library:
-Keras
-Tensorflow
-music21
-pickle
-csv
-glob
-tqdm
-midi2audio
-midi
+- Keras
+- Tensorflow
+- music21
+- pickle
+- csv
+- glob
+- tqdm
+- midi2audio
+- midi
 
 Put music in normal_songs directory then execute train.py to train the AI with this command line:
-python3 train.py
+> python3 train.py
 
 Keep last updates of each instruments were generated in updates directory and
 rename them "instrument_name.hdf5". 
 Example:
-Electric Bass-epoch50-loss1.04-updates.hdf5 -> Electric Bass.hdf5
+> Electric Bass-epoch50-loss1.04-updates.hdf5 -> Electric Bass.hdf5
 
 Then execute predict.py with this command line to launch prediction:
-python3 predict.py
+> python3 predict.py
 
 Some results will be obtain in music directory.
 
 Finally execute merge.py by the following command line:
-python3 merge.py
+> python3 merge.py
 
 It generates a .midi file called TotalSound.mid.
 
