@@ -1,8 +1,6 @@
 # Keras-music-generation
 This program is based on the tutorial: https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
 
-How to use:
-
 Dependencies:
 
 You need to install this list of library:
@@ -15,6 +13,8 @@ You need to install this list of library:
 - tqdm
 - midi2audio
 - midi
+
+How to use:
 
 Put some .midi file in normal_songs directory then execute train.py to train the AI with this command line:
 > python3 train.py
